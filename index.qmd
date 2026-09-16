@@ -2,6 +2,8 @@
 title: "Docs in Motion"
 ---
 
+![A stylized documentation dashboard with notes, cards, and workflow elements.](images/home-header.svg)
+
 Welcome to a small Quarto-based documentation website built to showcase practical writing, publishing workflows, and clear information design.
 
 This project is organized around three standalone documentation articles that focus on how teams create useful documents, maintain high-quality technical writing, and publish content in a way that is easy to find and easy to trust.

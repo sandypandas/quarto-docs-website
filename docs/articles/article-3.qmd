@@ -2,6 +2,8 @@
 title: "Publishing a static documentation site with Quarto"
 ---
 
+![Flow diagram showing markdown input, Quarto processing, and static website output.](../../images/article-3.svg)
+
 Quarto is a publishing system designed for technical communication. It works especially well for documentation sites because it combines Markdown authoring, structured content, and clean HTML output in one workflow. For teams that want a lightweight, public-facing website without a heavy content management system, Quarto is a strong option.
 
 The basic workflow is straightforward: author documents in Markdown or QMD, define the site structure in a configuration file, and render the site locally. Quarto then generates static HTML that can be hosted almost anywhere. This makes it attractive for open-source projects, internal docs, and small public documentation efforts where speed and clarity matter more than complex infrastructure.

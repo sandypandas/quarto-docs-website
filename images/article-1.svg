@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Documentation planning board</title>
+  <desc id="desc">A planning board with audience cards, headings, checklist items, and a workflow path.</desc>
+  <rect width="1200" height="600" fill="#f4f7fb"/>
+  <rect x="60" y="70" width="1080" height="460" rx="28" fill="#ffffff" stroke="#dfeaf8" stroke-width="3"/>
+  <rect x="110" y="120" width="220" height="180" rx="20" fill="#eaf2ff"/>
+  <text x="130" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#24507a" font-weight="700">Audience</text>
+  <text x="130" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#3b5372">New users</text>
+  <text x="130" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#3b5372">Maintainers</text>
+  <text x="130" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#3b5372">Stakeholders</text>
+  <rect x="390" y="120" width="300" height="180" rx="20" fill="#edf8ee"/>
+  <text x="420" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#2d6a55" font-weight="700">Purpose</text>
+  <text x="420" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#335d50">Reduce confusion</text>
+  <text x="420" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#335d50">Support tasks</text>
+  <text x="420" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#335d50">Improve trust</text>
+  <rect x="760" y="120" width="260" height="180" rx="20" fill="#fff4df"/>
+  <text x="790" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#8a5d1f" font-weight="700">Workflow</text>
+  <circle cx="800" cy="220" r="12" fill="#d9972d"/>
+  <circle cx="870" cy="220" r="12" fill="#d9972d"/>
+  <circle cx="940" cy="220" r="12" fill="#d9972d"/>
+  <line x1="812" y1="220" x2="858" y2="220" stroke="#d9972d" stroke-width="5"/>
+  <line x1="882" y1="220" x2="928" y2="220" stroke="#d9972d" stroke-width="5"/>
+  <rect x="150" y="370" width="880" height="110" rx="18" fill="#f7f9fc" stroke="#dfeaf8" stroke-width="2"/>
+  <text x="185" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#3d4c63" font-weight="700">Checklist</text>
+  <text x="185" y="448" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#4a5d75">• define goals   • clarify audience   • write actionable steps   • review for accuracy</text>
+</svg>

@@ -2,6 +2,8 @@
 title: "Planning documentation that people actually use"
 ---
 
+![Planning board showing audience, purpose, and workflow steps for a documentation project.](../../images/article-1.svg)
+
 Documentation is often treated as an afterthought, something created only when a release is nearly complete or a problem appears. In practice, good documentation is a strategic tool. It reduces confusion, supports new contributors, and creates a stable record of decisions that otherwise live only in private conversations or scattered notes.
 
 The strongest documentation plans begin with a clear understanding of the audience. A novice user needs different guidance than a teammate maintaining a production system or a technical stakeholder reviewing a roadmap. When teams skip this step, they write content that is either too basic to be useful or too dense to be readable. A strong documentation plan identifies who the reader is, what they want to do, and what problem they are trying to solve.

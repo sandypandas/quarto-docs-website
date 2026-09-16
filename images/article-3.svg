@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Static site publishing workflow</title>
+  <desc id="desc">A graphic showing Markdown source files, a publishing process, and a static website output.</desc>
+  <rect width="1200" height="600" fill="#f4f8fc"/>
+  <rect x="70" y="110" width="220" height="170" rx="22" fill="#eaf2ff"/>
+  <text x="115" y="162" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#274b75" font-weight="700">Markdown</text>
+  <text x="115" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#496d92">Articles</text>
+  <text x="115" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#496d92">Pages</text>
+  <path d="M290 195 H470" stroke="#5a7ca8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 195 L450 175 M470 195 L450 215" stroke="#5a7ca8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="470" y="110" width="260" height="170" rx="22" fill="#edf8ee"/>
+  <text x="525" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#2d6a55" font-weight="700">Quarto</text>
+  <text x="525" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#386b5a">Render</text>
+  <text x="525" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#386b5a">Publish</text>
+  <path d="M730 195 H905" stroke="#5a7ca8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M905 195 L885 175 M905 195 L885 215" stroke="#5a7ca8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="905" y="110" width="220" height="170" rx="22" fill="#fff5df"/>
+  <text x="952" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#8b6321" font-weight="700">Website</text>
+  <text x="952" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#8b6321">HTML</text>
+  <text x="952" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#8b6321">GitHub Pages</text>
+  <rect x="140" y="360" width="920" height="120" rx="18" fill="#ffffff" stroke="#dfeaf8" stroke-width="2"/>
+  <text x="180" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#445a72">Static hosting keeps the documentation fast, stable, and easy to review.</text>
+</svg>

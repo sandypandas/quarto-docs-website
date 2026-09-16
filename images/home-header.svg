@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Documentation dashboard illustration</title>
+  <desc id="desc">A stylized header showing files, notes, and workflow cards for a documentation site.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef6ff"/>
+      <stop offset="100%" stop-color="#dfeeff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect x="80" y="80" width="220" height="170" rx="18" fill="#ffffff" opacity="0.9"/>
+  <rect x="110" y="118" width="120" height="16" rx="8" fill="#4f81bd"/>
+  <rect x="110" y="148" width="150" height="12" rx="6" fill="#bfd5f2"/>
+  <rect x="110" y="170" width="130" height="12" rx="6" fill="#bfd5f2"/>
+  <rect x="110" y="192" width="160" height="12" rx="6" fill="#bfd5f2"/>
+  <rect x="390" y="90" width="250" height="150" rx="20" fill="#ffffff" opacity="0.96"/>
+  <path d="M425 175 L492 130 L560 155 L635 112" fill="none" stroke="#4f81bd" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="425" cy="175" r="11" fill="#4f81bd"/>
+  <circle cx="492" cy="130" r="11" fill="#7fa9d9"/>
+  <circle cx="560" cy="155" r="11" fill="#b8d0ef"/>
+  <circle cx="635" cy="112" r="11" fill="#dfeeff"/>
+  <rect x="700" y="100" width="180" height="120" rx="18" fill="#2d4d6d"/>
+  <rect x="730" y="130" width="120" height="18" rx="9" fill="#dfeeff"/>
+  <rect x="730" y="164" width="100" height="12" rx="6" fill="#9fbde0"/>
+  <rect x="890" y="115" width="220" height="90" rx="18" fill="#ffffff" opacity="0.92"/>
+  <rect x="920" y="140" width="120" height="16" rx="8" fill="#7ab97a"/>
+  <rect x="920" y="170" width="150" height="12" rx="6" fill="#cfe9d0"/>
+  <circle cx="1050" cy="148" r="18" fill="#7ab97a"/>
+  <path d="M1041 148 L1048 155 L1063 139" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
