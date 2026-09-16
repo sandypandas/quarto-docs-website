@@ -1,0 +1,30 @@
+---
+title: "Publishing a static documentation site with Quarto"
+---
+
+Quarto is a publishing system designed for technical communication. It works especially well for documentation sites because it combines Markdown authoring, structured content, and clean HTML output in one workflow. For teams that want a lightweight, public-facing website without a heavy content management system, Quarto is a strong option.
+
+The basic workflow is straightforward: author documents in Markdown or QMD, define the site structure in a configuration file, and render the site locally. Quarto then generates static HTML that can be hosted almost anywhere. This makes it attractive for open-source projects, internal docs, and small public documentation efforts where speed and clarity matter more than complex infrastructure.
+
+## Why choose static publishing
+
+Static sites are dependable and easy to deploy. They do not require a database, a server-side application, or a complicated publishing pipeline. You can host them on GitHub Pages, Netlify, or any basic static web host. That simplicity is useful for documentation, because it reduces operational overhead and makes the content easier to maintain.
+
+A static site is also easier to version with Git. This means documentation changes can be reviewed in pull requests, tracked over time, and published when they are ready. That creates a better review process than editing a wiki in place without history or accountability.
+
+## A simple Quarto setup
+
+A minimal Quarto project includes a config file, a landing page, and one or more content files. The project can also include styling through CSS, navigation, and page metadata. Once the files are organized, a command like `quarto render` generates the output site, and `quarto preview` lets you inspect it locally before publishing.
+
+```bash
+quarto render
+quarto preview
+```
+
+This setup is friendly to teams that want effective documentation without a large technical burden. It encourages writing in plain Markdown while still supporting polished site navigation, tables of contents, and code blocks.
+
+## Publishing and maintenance
+
+The final step is deployment. GitHub Pages is a popular choice because it works naturally with repositories, is easy to configure, and keeps the publishing pipeline simple. Once the site is live, ongoing maintenance becomes a matter of updating content, checking links, and keeping examples accurate as the project evolves.
+
+A public documentation site is not just a place to store information. It is a visible demonstration of how the project works, how the team thinks, and how easy it is to participate. Quarto makes that goal approachable.

@@ -1,0 +1,22 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: #1f3a5f;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+
+blockquote {
+  border-left: 4px solid #4f81bd;
+  padding-left: 1rem;
+  color: #3b4a5a;
+}
+
+code {
+  font-size: 0.95em;
+}
