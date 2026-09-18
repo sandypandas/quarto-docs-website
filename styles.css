@@ -1,27 +1,31 @@
 :root {
-  --bg: #f7f9fc;
-  --panel: #ffffff;
-  --ink: #1f2d3d;
-  --muted: #5c6b7a;
-  --brand: #2a5d8f;
-  --brand-soft: #dfeeff;
-  --brand-strong: #1f446d;
-  --border: #dfe7f2;
-  --shadow: rgba(31, 45, 61, 0.08);
-  --toggle-bg: #eaf2ff;
-  --toggle-border: #bfd4f0;
-  --toggle-ink: #224b75;
+  --bg: #0b1020;
+  --panel: #111a2b;
+  --panel-strong: #16233d;
+  --ink: #edf4ff;
+  --muted: #b7c8e5;
+  --brand: #75d6ff;
+  --brand-strong: #95ecff;
+  --brand-soft: rgba(117, 214, 255, 0.14);
+  --border: rgba(149, 236, 255, 0.22);
+  --shadow: rgba(0, 0, 0, 0.35);
+  --toggle-bg: rgba(117, 214, 255, 0.12);
+  --toggle-border: rgba(149, 236, 255, 0.35);
+  --toggle-ink: #dff9ff;
+  --accent: #8b5cf6;
 }
 
 body {
   font-family: "Segoe UI", sans-serif;
   line-height: 1.7;
   color: var(--ink);
-  background: var(--bg);
+  background:
+    radial-gradient(circle at top, rgba(139, 92, 246, 0.18), transparent 35%),
+    linear-gradient(180deg, #09111d 0%, #0c1324 100%);
 }
 
 h1, h2, h3 {
-  color: var(--brand);
+  color: var(--brand-strong);
   line-height: 1.3;
   margin-top: 1.5em;
 }
@@ -31,9 +35,10 @@ p, li {
 }
 
 .navbar {
-  background: var(--panel);
+  background: rgba(17, 26, 43, 0.92);
   border-bottom: 1px solid var(--border);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
 }
 
 .navbar a {
@@ -50,12 +55,12 @@ p, li {
 }
 
 .sidebar {
-  background: #f3f7fd;
+  background: rgba(15, 22, 36, 0.95);
   border-right: 1px solid var(--border);
 }
 
 .sidebar-item a {
-  color: var(--toggle-ink);
+  color: var(--ink);
 }
 
 .sidebar-item a:hover {
@@ -71,24 +76,26 @@ img {
   max-width: 100%;
   border-radius: 12px;
   border: 1px solid var(--border);
-  box-shadow: 0 4px 12px var(--shadow);
+  box-shadow: 0 6px 18px var(--shadow);
   margin: 1.2rem 0;
 }
 
 blockquote {
-  background: var(--brand-soft);
+  background: rgba(117, 214, 255, 0.08);
   border-left: 4px solid var(--brand);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 0.8rem 1rem;
   color: var(--ink);
 }
 
 pre, code {
   border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 code {
   font-size: 0.95em;
+  color: var(--brand-strong);
 }
 
 a {
