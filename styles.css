@@ -5,8 +5,12 @@
   --muted: #5c6b7a;
   --brand: #2a5d8f;
   --brand-soft: #dfeeff;
+  --brand-strong: #1f446d;
   --border: #dfe7f2;
   --shadow: rgba(31, 45, 61, 0.08);
+  --toggle-bg: #eaf2ff;
+  --toggle-border: #bfd4f0;
+  --toggle-ink: #224b75;
 }
 
 body {
@@ -34,6 +38,29 @@ p, li {
 
 .navbar a {
   color: var(--ink);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  background: var(--toggle-bg);
+  border: 1px solid var(--toggle-border);
+  border-radius: 8px;
+  color: var(--toggle-ink);
+}
+
+.sidebar {
+  background: #f3f7fd;
+  border-right: 1px solid var(--border);
+}
+
+.sidebar-item a {
+  color: var(--toggle-ink);
+}
+
+.sidebar-item a:hover {
+  background: var(--brand-soft);
+  color: var(--brand-strong);
 }
 
 .quarto-title-block {
