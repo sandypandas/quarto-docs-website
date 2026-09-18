@@ -2,49 +2,25 @@
 title: "Docs in Motion"
 ---
 
-<div class="landing-layout">
-  <aside class="left-rail">
-    <div class="rail-title">Documentation</div>
-    <ul>
-      <li>Planning documentation that people actually use</li>
-      <li>Writing concise, readable technical content</li>
-      <li>Publishing a static documentation site with Quarto</li>
-    </ul>
-  </aside>
+# Docs in Motion
 
-  <main class="content-panel">
-    <h1>Docs in Motion</h1>
+A stylized documentation dashboard with notes, cards, and workflow elements.
 
-    <p class="deck">A stylized documentation dashboard with notes, cards, and workflow elements.</p>
+Welcome to a small Quarto-based documentation website built to showcase practical writing, publishing workflows, and clear information design.
 
-    <p>Welcome to a small Quarto-based documentation website built to showcase practical writing, publishing workflows, and clear information design.</p>
+This project is organized around three standalone documentation articles that focus on how teams create useful documents, maintain high-quality technical writing, and publish content in a way that is easy to find and easy to trust.
 
-    <p>This project is organized around three standalone documentation articles that focus on how teams create useful documents, maintain high-quality technical writing, and publish content in a way that is easy to find and easy to trust.</p>
+## Why documentation matters
 
-    <h2>Why documentation matters</h2>
+Clear documentation reduces confusion, speeds up onboarding, and creates trust across technical teams and customers.
 
-    <p>Clear documentation reduces confusion, speeds up onboarding, and creates trust across technical teams and customers.</p>
+## Featured articles
 
-    <h2>Featured articles</h2>
+- [Planning documentation that people actually use](docs/articles/article-1.qmd)
+- [Writing concise, readable technical content](docs/articles/article-2.qmd)
+- [Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)
 
-    <ul>
-      <li>[Planning documentation that people actually use](docs/articles/article-1.qmd)</li>
-      <li>[Writing concise, readable technical content](docs/articles/article-2.qmd)</li>
-      <li>[Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)</li>
-    </ul>
+## What this site demonstrates
 
-    <h2>What this site demonstrates</h2>
-
-    <p>It shows how a simple documentation set can feel polished, readable, and structured without relying on heavy frameworks or a cluttered interface.</p>
-  </main>
-
-  <aside class="right-rail">
-    <h3>On this page</h3>
-    <ul>
-      <li>Why documentation matters</li>
-      <li>Featured articles</li>
-      <li>What this site demonstrates</li>
-    </ul>
-  </aside>
-</div>
+It shows how a simple documentation set can feel polished, readable, and structured without relying on heavy frameworks or a cluttered interface.
 
