@@ -2,30 +2,53 @@
 title: "Docs in Motion"
 ---
 
-![A stylized documentation dashboard with notes, cards, and workflow elements.](images/home-header.svg)
+<div class="landing-shell">
+  <header class="site-header">
+    <div class="brand">LOG IN/SIGN UP</div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#">Home</a>
+      <a href="#">Categories</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+    </nav>
+    <button class="menu-button" aria-label="Open menu">☰</button>
+  </header>
 
-Welcome to a small Quarto-based documentation website built to showcase practical writing, publishing workflows, and clear information design.
+  <div class="hero-grid">
+    <section class="hero-copy">
+      <h1>Minimalism<br>at its finest.</h1>
+      <a class="cta-link" href="#featured">Shop all</a>
+      <div class="socials" aria-label="Social links">
+        <a href="#">f</a>
+        <a href="#">x</a>
+        <a href="#">in</a>
+      </div>
+    </section>
 
-This project is organized around three standalone documentation articles that focus on how teams create useful documents, maintain high-quality technical writing, and publish content in a way that is easy to find and easy to trust.
+    <div class="feature-grid" id="featured">
+      <article class="feature-card">
+        <img src="images/article-1.svg" alt="Kitchen illustration showing a minimal modern design concept." />
+        <div class="feature-label">Kitchen</div>
+      </article>
 
-## Why documentation matters
+      <article class="feature-card">
+        <img src="images/article-2.svg" alt="Bathroom illustration showing a minimal modern design concept." />
+        <div class="feature-label">Bathroom</div>
+      </article>
 
-Good documentation reduces confusion, shortens onboarding time, and helps teams move faster with fewer interruptions. It creates a shared source of truth for decisions, workflows, and product behavior. When written well, documentation becomes an asset instead of a chore.
+      <article class="feature-card">
+        <img src="images/article-3.svg" alt="Lighting illustration showing a minimal modern design concept." />
+        <div class="feature-label">Lighting</div>
+      </article>
+    </div>
+  </div>
+</div>
 
 ## Featured articles
+
+This landing page introduces a dark, editorial aesthetic for the documentation mini-site. The project still includes the same article set, arranged as a clean minimal direction that feels more like a design showcase than a standard documentation page.
 
 - [Planning documentation that people actually use](docs/articles/article-1.qmd)
 - [Writing concise, readable technical content](docs/articles/article-2.qmd)
 - [Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)
-
-## What this site demonstrates
-
-- Clear article structure with headings and sections
-- Markdown formatting for readability and accessibility
-- Code examples and command snippets
-- A lightweight publishing workflow using Quarto
-
-This site is intentionally simple: it focuses on documentation quality over complexity. That is often the right balance for small projects, internal knowledge bases, and public-facing documentation sites.
-
-> Documentation is not just a record of what happened; it is the system that helps the next person succeed.
 
