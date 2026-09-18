@@ -257,14 +257,24 @@ a {
   text-decoration: underline;
 }
 
+body,
 #quarto-sidebar,
 .sidebar,
 .sidebar-menu-container,
 .quarto-sidebar-collapse-item,
-.page-columns {
-  background: #12181d !important;
+.page-columns,
+#quarto-content,
+main.content,
+.quarto-container {
+  background: #0d1115 !important;
   border-color: rgba(255,255,255,0.08) !important;
   color: var(--ink) !important;
+}
+
+#quarto-sidebar,
+.sidebar {
+  box-shadow: none !important;
+  border-right: 1px solid rgba(255,255,255,0.08) !important;
 }
 
 #quarto-sidebar .sidebar-item,
@@ -273,21 +283,23 @@ a {
 #quarto-sidebar a,
 .sidebar a,
 .sidebar-item a,
-.sidebar-item-text {
-  color: var(--ink) !important;
+.sidebar-item-text,
+.sidebar-item-container a,
+.sidebar-item-text.sidebar-link {
+  color: #edf3f7 !important;
+  background: transparent !important;
 }
 
-#quarto-sidebar a:hover,
+#quarto-sidebar .sidebar-item a:hover,
 .sidebar a:hover,
-.sidebar-item a:hover {
+.sidebar-item a:hover,
+.sidebar-item-container a:hover {
   color: var(--brand-strong) !important;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.04) !important;
 }
 
-#quarto-content,
-main.content,
-.quarto-container,
-.page-columns {
+#quarto-sidebar .sidebar-item-container,
+#quarto-sidebar .sidebar-item {
   background: transparent !important;
 }
 
