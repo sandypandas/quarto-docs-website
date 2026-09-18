@@ -257,6 +257,40 @@ a {
   text-decoration: underline;
 }
 
+#quarto-sidebar,
+.sidebar,
+.sidebar-menu-container,
+.quarto-sidebar-collapse-item,
+.page-columns {
+  background: #12181d !important;
+  border-color: rgba(255,255,255,0.08) !important;
+  color: var(--ink) !important;
+}
+
+#quarto-sidebar .sidebar-item,
+#quarto-sidebar .sidebar-item-container,
+#quarto-sidebar .sidebar-item-text,
+#quarto-sidebar a,
+.sidebar a,
+.sidebar-item a,
+.sidebar-item-text {
+  color: var(--ink) !important;
+}
+
+#quarto-sidebar a:hover,
+.sidebar a:hover,
+.sidebar-item a:hover {
+  color: var(--brand-strong) !important;
+  background: rgba(255,255,255,0.04);
+}
+
+#quarto-content,
+main.content,
+.quarto-container,
+.page-columns {
+  background: transparent !important;
+}
+
 .page-columns {
   max-width: 1100px;
   margin: 0 auto;
