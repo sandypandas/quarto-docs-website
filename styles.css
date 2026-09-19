@@ -252,9 +252,11 @@ p, li {
 .mini-panel {
   max-width: 980px;
   margin: 0 auto;
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: #f3f1ee;
+  border: 1px solid rgba(0,0,0,0.08);
   padding: 2rem;
+  color: #111111;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);
 }
 
 .category-list {
@@ -265,20 +267,30 @@ p, li {
 }
 
 .category-card {
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: #f7f5f3;
+  border: 1px solid rgba(0,0,0,0.08);
   padding: 1.25rem;
+  color: #111111;
 }
 
 .category-card h3 {
   margin: 0 0 0.75rem;
   font-size: 1.15rem;
+  color: #111111;
 }
 
 .category-card p,
 .category-card a,
-.service-list li {
-  color: rgba(255,255,255,0.8);
+.service-list li,
+.mini-panel p,
+.mini-panel li,
+.mini-panel h2,
+.mini-panel h3 {
+  color: #111111;
+}
+
+.category-card a {
+  text-decoration: underline;
 }
 
 .service-list {
