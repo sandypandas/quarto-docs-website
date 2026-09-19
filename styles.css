@@ -354,12 +354,26 @@ blockquote {
 
 pre, code {
   border-radius: 8px;
-  background: rgba(255,255,255,0.03);
+  background: transparent;
 }
 
 code {
   font-size: 0.95em;
-  color: var(--brand-strong);
+  color: rgba(255,255,255,0.08);
+}
+
+pre {
+  background: transparent;
+  color: rgba(255,255,255,0.08);
+  border: 0;
+}
+
+main pre,
+main code,
+.quarto-title-block code,
+#quarto-document-content code {
+  background: transparent !important;
+  color: rgba(255,255,255,0.08) !important;
 }
 
 a {
