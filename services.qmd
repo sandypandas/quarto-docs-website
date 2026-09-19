@@ -2,8 +2,6 @@
 title: "Services"
 ---
 
-## Services
-
 - Information architecture
 - Technical writing and editing
 - Documentation design systems

@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-## About
-
 This project is built to show how practical documentation can be clear, maintainable, and readable.
 
 It brings together structure, writing quality, and publishing workflow into a single dark editorial landing page.

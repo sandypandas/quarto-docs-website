@@ -51,11 +51,3 @@ This landing page introduces a dark, editorial aesthetic for the documentation m
 - [Writing concise, readable technical content](docs/articles/article-2.qmd)
 - [Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)
 
-## Featured articles
-
-This landing page introduces a dark, editorial aesthetic for the documentation mini-site. The project still includes the same article set, arranged as a clean minimal direction that feels more like a design showcase than a standard documentation page.
-
-- [Planning documentation that people actually use](docs/articles/article-1.qmd)
-- [Writing concise, readable technical content](docs/articles/article-2.qmd)
-- [Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)
-

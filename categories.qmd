@@ -2,8 +2,6 @@
 title: "Categories"
 ---
 
-## Categories
-
 ### Planning
 
 [Planning documentation that people actually use](docs/articles/article-1.qmd)
