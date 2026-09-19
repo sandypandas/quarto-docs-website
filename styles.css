@@ -370,10 +370,18 @@ pre {
 
 main pre,
 main code,
-.quarto-title-block code,
-#quarto-document-content code {
+#quarto-document-content pre,
+#quarto-document-content code,
+.quarto-title-block code {
   background: transparent !important;
-  color: rgba(255,255,255,0.08) !important;
+  color: rgba(255,255,255,0.06) !important;
+}
+
+#quarto-document-content,
+.quarto-container,
+.content,
+.page-columns {
+  background: #171b1d !important;
 }
 
 a {
