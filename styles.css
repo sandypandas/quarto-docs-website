@@ -157,6 +157,31 @@ p, li {
   position: relative;
 }
 
+#home,
+#categories,
+#about,
+#services {
+  color: #111111;
+}
+
+#categories .mini-panel,
+#about .mini-panel,
+#services .mini-panel {
+  background: #f4f1ee;
+  border: 1px solid rgba(0,0,0,0.08);
+  color: #111111;
+}
+
+#categories .mini-panel h2,
+#categories .mini-panel h3,
+#categories .mini-panel p,
+#categories .mini-panel a,
+#about .mini-panel p,
+#services .mini-panel li,
+#services .mini-panel h2 {
+  color: #111111;
+}
+
 .content-panel {
   display: none;
   padding: 2.5rem 2rem 1rem;
