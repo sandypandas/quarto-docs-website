@@ -13,13 +13,22 @@ website:
           - docs/articles/article-1.qmd
           - docs/articles/article-2.qmd
           - docs/articles/article-3.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Documentation"
+        contents:
+          - docs/articles/article-1.qmd
+          - docs/articles/article-2.qmd
+          - docs/articles/article-3.qmd
 
 format:
   html:
-    theme: none
+    theme: cosmo
     css: styles.css
-    toc: false
-    code-copy: false
+    toc: true
+    code-copy: true
 
 execute:
   freeze: auto
