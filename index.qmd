@@ -4,45 +4,107 @@ title: "Docs in Motion"
 
 <div class="landing-shell">
   <header class="site-header">
-    <div class="brand">LOG IN/SIGN UP</div>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="#">Home</a>
-      <a href="#">Categories</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
+      <button class="nav-link active" type="button" data-target="home">Home</button>
+      <button class="nav-link" type="button" data-target="categories">Categories</button>
+      <button class="nav-link" type="button" data-target="about">About</button>
+      <button class="nav-link" type="button" data-target="services">Services</button>
     </nav>
     <button class="menu-button" aria-label="Open menu">☰</button>
   </header>
 
-  <div class="hero-grid">
-    <section class="hero-copy">
-      <h1>Minimalism<br>at its finest.</h1>
-      <a class="cta-link" href="#featured">Shop all</a>
-      <div class="socials" aria-label="Social links">
-        <a href="#">f</a>
-        <a href="#">x</a>
-        <a href="#">in</a>
+  <div class="panel-stack">
+    <section class="content-panel active" id="home">
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <h1>Minimalism<br>at its finest.</h1>
+          <a class="cta-link" href="#featured">Shop all</a>
+          <div class="socials" aria-label="Social links">
+            <a href="#">f</a>
+            <a href="#">x</a>
+            <a href="#">in</a>
+          </div>
+        </section>
+
+        <div class="feature-grid" id="featured">
+          <article class="feature-card">
+            <img src="images/article-1.svg" alt="Kitchen illustration showing a minimal modern design concept." />
+            <div class="feature-label">Kitchen</div>
+          </article>
+
+          <article class="feature-card">
+            <img src="images/article-2.svg" alt="Bathroom illustration showing a minimal modern design concept." />
+            <div class="feature-label">Bathroom</div>
+          </article>
+
+          <article class="feature-card">
+            <img src="images/article-3.svg" alt="Lighting illustration showing a minimal modern design concept." />
+            <div class="feature-label">Lighting</div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <div class="feature-grid" id="featured">
-      <article class="feature-card">
-        <img src="images/article-1.svg" alt="Kitchen illustration showing a minimal modern design concept." />
-        <div class="feature-label">Kitchen</div>
-      </article>
+    <section class="content-panel" id="categories">
+      <div class="mini-panel">
+        <h2>Categories</h2>
+        <div class="category-list">
+          <article class="category-card">
+            <h3>Planning</h3>
+            <p>Documentation structures that improve clarity and adoption.</p>
+            <a href="docs/articles/article-1.qmd">Open article</a>
+          </article>
+          <article class="category-card">
+            <h3>Writing</h3>
+            <p>Simple, readable technical content for real teams and users.</p>
+            <a href="docs/articles/article-2.qmd">Open article</a>
+          </article>
+          <article class="category-card">
+            <h3>Publishing</h3>
+            <p>Static site workflows and clean distribution with Quarto.</p>
+            <a href="docs/articles/article-3.qmd">Open article</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <article class="feature-card">
-        <img src="images/article-2.svg" alt="Bathroom illustration showing a minimal modern design concept." />
-        <div class="feature-label">Bathroom</div>
-      </article>
+    <section class="content-panel" id="about">
+      <div class="mini-panel">
+        <h2>About</h2>
+        <p>This project explores how practical documentation can be clear, durable, and genuinely useful to the people who read it.</p>
+        <p>It brings together structure, writing quality, and publishing workflow in one simple dark editorial layout.</p>
+      </div>
+    </section>
 
-      <article class="feature-card">
-        <img src="images/article-3.svg" alt="Lighting illustration showing a minimal modern design concept." />
-        <div class="feature-label">Lighting</div>
-      </article>
-    </div>
+    <section class="content-panel" id="services">
+      <div class="mini-panel">
+        <h2>Services</h2>
+        <ul class="service-list">
+          <li>Information architecture</li>
+          <li>Technical writing and editing</li>
+          <li>Documentation design systems</li>
+          <li>Quarto-based publishing</li>
+        </ul>
+      </div>
+    </section>
   </div>
 </div>
+
+<script>
+  const navButtons = document.querySelectorAll('.nav-link');
+  const panels = document.querySelectorAll('.content-panel');
+
+  navButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const target = button.dataset.target;
+
+      navButtons.forEach((btn) => btn.classList.toggle('active', btn === button));
+      panels.forEach((panel) => {
+        panel.classList.toggle('active', panel.id === target);
+      });
+    });
+  });
+</script>
 
 ## Featured articles
 

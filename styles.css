@@ -93,29 +93,31 @@ p, li {
   box-sizing: border-box;
 }
 
-.brand {
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.75);
-}
-
 .site-nav {
   display: flex;
   align-items: center;
   gap: 2rem;
+  flex: 1;
+  justify-content: flex-start;
 }
 
-.site-nav a {
+.nav-link {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
   position: relative;
   font-size: 0.7rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.7);
   text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.site-nav a::after {
+.nav-link::after {
   content: "";
   display: block;
   width: 0;
@@ -125,8 +127,13 @@ p, li {
   transition: width 0.2s ease;
 }
 
-.site-nav a:hover::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   width: 100%;
+}
+
+.nav-link.active {
+  color: rgba(255,255,255,0.95);
 }
 
 .menu-button {
@@ -137,6 +144,7 @@ p, li {
   background: transparent;
   color: var(--ink);
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .landing-shell {
@@ -145,11 +153,23 @@ p, li {
   padding: 0 0 2rem;
 }
 
+.panel-stack {
+  position: relative;
+}
+
+.content-panel {
+  display: none;
+  padding: 2.5rem 2rem 1rem;
+}
+
+.content-panel.active {
+  display: block;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 0.9fr 2.1fr;
   gap: 2rem;
-  padding: 2.5rem 2rem 1rem;
   align-items: center;
 }
 
@@ -227,6 +247,43 @@ p, li {
   color: rgba(255,255,255,0.85);
   letter-spacing: 0.02em;
   background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.35));
+}
+
+.mini-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 2rem;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.category-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 1.25rem;
+}
+
+.category-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.15rem;
+}
+
+.category-card p,
+.category-card a,
+.service-list li {
+  color: rgba(255,255,255,0.8);
+}
+
+.service-list {
+  padding-left: 1.2rem;
+  margin-top: 1rem;
 }
 
 img:hover {
