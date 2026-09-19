@@ -277,7 +277,7 @@ p, li {
 .mini-panel {
   max-width: 980px;
   margin: 0 auto;
-  background: #e9e2dc;
+  background: #dfe0e1;
   border: 1px solid rgba(17, 17, 17, 0.12);
   padding: 2rem;
   color: #1a1a1a;
@@ -292,7 +292,7 @@ p, li {
 }
 
 .category-card {
-  background: #f4efe9;
+  background: #e7e8e9;
   border: 1px solid rgba(17, 17, 17, 0.12);
   padding: 1.25rem;
   color: #1a1a1a;
