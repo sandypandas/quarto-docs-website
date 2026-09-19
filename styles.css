@@ -277,10 +277,10 @@ p, li {
 .mini-panel {
   max-width: 980px;
   margin: 0 auto;
-  background: #f3f1ee;
-  border: 1px solid rgba(0,0,0,0.08);
+  background: #e9e2dc;
+  border: 1px solid rgba(17, 17, 17, 0.12);
   padding: 2rem;
-  color: #111111;
+  color: #1a1a1a;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);
 }
 
@@ -292,16 +292,16 @@ p, li {
 }
 
 .category-card {
-  background: #f7f5f3;
-  border: 1px solid rgba(0,0,0,0.08);
+  background: #f4efe9;
+  border: 1px solid rgba(17, 17, 17, 0.12);
   padding: 1.25rem;
-  color: #111111;
+  color: #1a1a1a;
 }
 
 .category-card h3 {
   margin: 0 0 0.75rem;
   font-size: 1.15rem;
-  color: #111111;
+  color: #1a1a1a;
 }
 
 .category-card p,
@@ -310,12 +310,15 @@ p, li {
 .mini-panel p,
 .mini-panel li,
 .mini-panel h2,
-.mini-panel h3 {
-  color: #111111;
+.mini-panel h3,
+.mini-panel a {
+  color: #1a1a1a;
 }
 
-.category-card a {
+.category-card a,
+.mini-panel a {
   text-decoration: underline;
+  color: #1c3d5c;
 }
 
 .service-list {
