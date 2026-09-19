@@ -3,16 +3,6 @@ title: "Docs in Motion"
 ---
 
 <div class="landing-shell">
-  <header class="site-header">
-    <nav class="site-nav" aria-label="Main navigation">
-      <a class="nav-link active" href="index.qmd">Home</a>
-      <a class="nav-link" href="categories.qmd">Categories</a>
-      <a class="nav-link" href="about.qmd">About</a>
-      <a class="nav-link" href="services.qmd">Services</a>
-    </nav>
-    <button class="menu-button" aria-label="Open menu">☰</button>
-  </header>
-
   <div class="hero-grid">
     <section class="hero-copy">
       <h1>Minimalism<br>at its finest.</h1>
