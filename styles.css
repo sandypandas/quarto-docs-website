@@ -67,18 +67,31 @@ p, li {
   color: var(--ink);
 }
 
-.sidebar {
-  background: rgba(17, 20, 22, 0.9);
-  border-right: 1px solid var(--border);
-}
-
-.sidebar-item a {
+#quarto-sidebar,
+.sidebar,
+.quarto-sidebar-collapse-item,
+.sidebar-menu-container {
+  background: #2b2f32 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
   color: var(--ink);
 }
 
-.sidebar-item a:hover {
+.sidebar-item a,
+.sidebar-item .menu-text,
+.sidebar-item-text,
+.sidebar-item-toggle,
+.sidebar-section .menu-text {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.sidebar-item a:hover,
+.sidebar-item a.active {
   background: rgba(255, 255, 255, 0.04);
-  color: var(--brand-strong);
+  color: var(--brand-strong) !important;
+}
+
+#quarto-sidebar-glass {
+  background: rgba(20, 23, 25, 0.45);
 }
 
 .site-header {
