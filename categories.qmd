@@ -1,0 +1,17 @@
+---
+title: "Categories"
+---
+
+## Categories
+
+### Planning
+
+[Planning documentation that people actually use](docs/articles/article-1.qmd)
+
+### Writing
+
+[Writing concise, readable technical content](docs/articles/article-2.qmd)
+
+### Publishing
+
+[Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)

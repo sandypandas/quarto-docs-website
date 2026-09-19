@@ -8,6 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: categories.qmd
+        text: Categories
+      - href: about.qmd
+        text: About
+      - href: services.qmd
+        text: Services
       - text: Articles
         menu:
           - docs/articles/article-1.qmd

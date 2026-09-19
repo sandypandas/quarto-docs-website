@@ -1,0 +1,12 @@
+---
+title: "Services"
+---
+
+## Services
+
+- Information architecture
+- Technical writing and editing
+- Documentation design systems
+- Quarto-based publishing
+
+These services help teams turn complex information into content people can trust and use.
