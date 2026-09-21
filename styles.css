@@ -434,25 +434,19 @@ pre {
   display: none !important;
 }
 .landing-shell {
-  min-height: 100vh;
-  padding: 4rem 2rem 5rem;
+  background: var(--bg);
+  padding: 1rem 2rem 2rem;
   box-sizing: border-box;
-  background:
-    linear-gradient(
-      90deg,
-      rgba(26, 29, 31, 0.97),
-      rgba(26, 29, 31, 0.55)
-    ),
-    url("images/article-1.svg") center right / cover no-repeat;
 }
 
 .hero-grid {
-  max-width: 1200px;
-  min-height: 72vh;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.9fr 2.1fr;
+  gap: 2rem;
   align-items: center;
-}
-
+  max-width: 1200px;
+  margin: 0 auto;
+}  
 .hero-copy p {
   max-width: 30rem;
   color: #d0d4d1;
